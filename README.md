@@ -102,9 +102,13 @@ Search for ransomware using the Lastline sandbox:
 ```
 lastline:RANSOM 
 ```
-Searching for stealers in the pe format on C2AE sandbox. (STEALER/MALWARE/TROJAN are some keywords used by this sandbox)
+Searching for stealers in the pe format on C2AE sandbox. (STEALER/MALWARE/TROJAN/RAT are some keywords used by this sandbox)
 ```
 c2ae:STEALER and tag:peexe
+```
+VirusTotal Zenbox searches. (MALWARE/TROJAN/EVADER are some of the keywords used)
+```
+virustotal_zenbox:MALWARE
 ```
 
 ## Content Searches (New Feature)
